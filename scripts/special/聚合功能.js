@@ -75,7 +75,7 @@ function action(mode, type, selection) {
     if (status == 0) {
 		var info = [
 				   ["","         "+首圖LOGO+"","\r\n\r\n"],
-				   [""+星星+"　　 #e#r"+線上人數+"  ",toI (parseInt(cm.getTotalOnline() * 2.3)) , ""+星星+"\r\n\r\n"],
+				   [""+星星+"　　 #e#r"+線上人數+"  ",toI (parseInt(cm.getTotalOnline())) , ""+星星+"\r\n\r\n"],
 				   [""+星星+"    #e#r"+gash點數+"  ", toI (cm.getPlayer().getCSPoints(1)), ""+星星+"\r\n\r\n"],
 				   [""+星星+"    #e#r"+楓葉點數+"  ", toI (cm.getPlayer().getCSPoints(2)), ""+星星+"\r\n\r\n"],
 				   [""+星星+"    #e#r"+贊助累積+"  ", toI (cm.getPlayer().getTotalMoney()), ""+星星+"\r\n\r\n"], 
